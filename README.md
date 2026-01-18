@@ -251,4 +251,4 @@ Deployment using Docker & cloud hosting
 
 Author:
 Thushank Sachin Bagal
-Full-Stack Developer (Internship Candidate)
+Developer
