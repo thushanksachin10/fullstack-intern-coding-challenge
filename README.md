@@ -5,24 +5,34 @@ A full-stack web application that allows users to submit ratings for registered 
 
 Built using React + Material UI, Express.js, Prisma ORM, and PostgreSQL, following industry best practices.
 
-1) Tech Stack
-a) Frontend:
-    React (Vite)
-    Material UI (MUI)
-    Axios
-    React Router DOM
+🚀 Tech Stack
+Frontend
 
-b) Backend:
-    Node.js
-    Express.js
-    Prisma ORM
-    JWT Authentication
-    bcrypt
+React (Vite)
 
-c) Database:
-    PostgreSQL
+Material UI (MUI)
 
-2) User Roles & Features
+Axios
+
+React Router DOM
+
+Backend
+
+Node.js
+
+Express.js
+
+Prisma ORM
+
+JWT Authentication
+
+bcrypt
+
+Database
+
+PostgreSQL
+
+👥 User Roles & Features
 1️⃣ System Administrator
 
 Add new users (Admin / Normal User)
@@ -209,7 +219,7 @@ Store Owner
 
 GET /api/store-owner/dashboard
 
-Design Decisions:
+🧠 Design Decisions
 
 Prisma ORM used for:
 
@@ -229,7 +239,7 @@ JWT for stateless authentication
 
 Role middleware for strict access control
 
-Future Improvements:
+📈 Future Improvements
 
 Pagination for large datasets
 
