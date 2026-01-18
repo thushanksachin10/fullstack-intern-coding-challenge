@@ -3,6 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import authRoutes from "./routes/auth.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
+import userRoutes from "./routes/user.routes.js";
+import ratingRoutes from "./routes/rating.routes.js";
 
 
 
@@ -21,6 +23,8 @@ app.get("/health", (req, res) => {
 
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/user", userRoutes);
+app.use("/api/ratings", ratingRoutes);
 
 
 export default app;
