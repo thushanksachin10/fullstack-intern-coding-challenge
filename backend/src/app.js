@@ -5,6 +5,7 @@ import authRoutes from "./routes/auth.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import ratingRoutes from "./routes/rating.routes.js";
+import storeOwnerRoutes from "./routes/storeOwner.routes.js";
 
 
 
@@ -25,6 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/ratings", ratingRoutes);
+app.use("/api/store-owner", storeOwnerRoutes);
 
 
 export default app;
